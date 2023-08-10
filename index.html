@@ -1,0 +1,196 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="structure.js"></script>
+    <title></title>
+</head>
+
+<audio id="myaudio" src="ticktock.mp3" autoplay onplay="switchToTicking()"></audio>
+
+<body>
+
+    <div>
+
+        <header>
+            <navigation>
+                <div class="navigation-container">
+                    <div class="navigation-container1"><img src="logo.png" alt="">
+                        <div>
+                            <h3>timeless</h3>
+                        </div>
+                    </div>
+                    <div class="navigation-container2">
+                        <nav>
+                            <ul>
+                                <a href="#">new featured</a>
+                                <a href="#">men</a>
+                                <a href="#">women</a>
+                                <a href="#">kids</a>
+                                <a href="#">sale</a>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="navigation-container3">
+                        <span class="material-symbols-outlined">
+                            shopping_cart
+                        </span>
+
+
+                        <button id="toggleButton" class="hamburger">
+                            <span id="menuIcon" onclick="changeIcon" class="material-symbols-outlined"> menu </span>
+                            <span id="closeicon" class="material-symbols-outlined">close </span>
+                        </button>
+
+
+                        <div class="cart-items"> </div>
+                        <button class="log">log in</button>
+                        <button class="sign">Sign in</button>
+                    </div>
+                </div>
+            </navigation>
+        </header>
+
+
+        <main>
+            <section>
+                <div class="dropdown">
+                    <nav>
+                        <ul>
+                            <a href="#">new featured</a>
+                            <a href="#">men</a>
+                            <a href="#">women</a>
+                            <a href="#">kids</a>
+                            <a href="#">sale</a>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="banner">
+                    <h1>timeless</h1>
+                    <p>Embrace eternity in every moment...</p>
+                    <button class="buynow">buy now</button>
+                </div>
+
+            </section>
+            <section>
+                <div class="box-text-container">
+                    <h2>new collection</h2>
+                    <div class="box-container">
+                        <div class="box1"><a href="#">featured</a>
+                        </div>
+                        <div class="box2"><a href="#">men</a></div>
+                        <div class="box3"><a href="#">women</a></div>
+                        <div class="box4"> <a href="#">kids</a></div>
+                        <div class="box5"> <a href="#">sale</a></div>
+
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="talk">
+                    <div class="talk1">
+                        <div class="talk-text">
+                            <h2>tick tock...</h2>
+                        </div>
+                        <div class="talk-text1">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, enim? Perspiciatis a
+                                voluptatum soluta error, dolor in eveniet voluptatem obcaecati illo hic vero neque
+                                culpa, esse quisquam facilis itaque nesciunt?
+                                Fugit alias veritatis iusto excepturi. Modi magnam dolore reiciendis quaerat, numquam
+                                pariatur amet! Quibusdam minus voluptatum rerum commodi, corporis facilis sit ipsa
+                                maiores quasi inventore odit expedita iusto nobis </p>
+                        </div>
+
+                    </div>
+                    <div class="talk2"></div>
+                </div>
+            </section>
+            <section>
+                <div class="bottom">
+                    <div class="bottom-cont">
+                        <div id="bottom-cont1a" class="bottom-cont1"></div>
+                        <div class="bottom-cont1">
+                            <h3>9</h3>
+                        </div>
+                        <div id="bottom-cont1a" class="bottom-cont1"></div>
+                    </div>
+                    <div class="bottom-cont">
+                        <div class="bottom-cont1">
+                            <h3>12</h3>
+                        </div>
+                        <div id="bottom-cont2a" class="bottom-cont1">
+
+
+                        </div>
+                        <div class="bottom-cont1">
+                            <h3>6</h3>
+                        </div>
+                    </div>
+                    <div class="bottom-cont">
+                        <div id="bottom-cont1a" class="bottom-cont1"></div>
+                        <div class="bottom-cont1">
+                            <h3>3</h3>
+                        </div>
+                        <div id="bottom-cont3a" class="bottom-cont1"></div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="end">
+                    <h2>time's up !! </h2>
+                    <!-- <span class="material-symbols-outlined">
+                        sprint
+                        </span> -->
+
+
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footer">
+                <div class="fbox1">
+                    <h4>timeless</h4>
+                    <p>123 test street,test city, test state, 12345, test country.</p>
+                    <a href="mailto:test@example.com">info@timeless.com</a>
+                    <p>+2340 0 0000 00000</p>
+                </div>
+                <div class="fbox2">
+                    <h4>help</h4>
+                    <a href="#">about</a>
+                    <a href="#">track</a>
+                    <a href="#">faq</a>
+                    <a href="#">contact</a>
+                    <a href="#">returns & exchange policy</a>
+                </div>
+                <div class="fbox3">
+                    <h4>receive email updates</h4>
+                    <form action="">
+                        <label for="email">Email:</label>
+                        <input class="email-field" type="email" id="email" value="example@example.com" value="submit">
+                        <input class="submit-btn" type="submit" value="submit">
+                    </form>
+                </div>
+
+            </div>
+            <div class="fbox">
+                <p>&copy; 2023 timeless</p>
+            </div>
+        </footer>
+
+
+    </div>
+
+</body>
+
+</html>
